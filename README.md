@@ -12,6 +12,9 @@ cgemini review --last --focus security
 git diff main | cgemini review
 ```
 
+<img width="726" height="338" alt="Screenshot 2026-04-24 at 1 58 03 AM" src="https://github.com/user-attachments/assets/c12ae6a8-fc44-44bf-9458-bd77f567dfd8" />
+
+
 ## Why
 
 Conductor runs many coding agents in parallel, each in its own workspace. `cgemini` gives every one of those agents access to Gemini — configured once in `~/.cgemini/config.json`, available everywhere — as a second opinion that didn't write the code it's reviewing.
