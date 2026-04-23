@@ -1,0 +1,8 @@
+.github/
+.claude/
+.context/
+.env*
+test/
+node_modules/
+*.log
+.DS_Store

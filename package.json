@@ -1,0 +1,53 @@
+{
+  "name": "cgemini",
+  "version": "0.3.0",
+  "description": "Conductor + Gemini: use Gemini as an independent code reviewer inside any Conductor workspace — CLI, MCP tool, and /gemini slash command.",
+  "type": "module",
+  "bin": {
+    "cgemini": "bin/cgemini.js",
+    "cgemini-mcp": "bin/cgemini-mcp.js"
+  },
+  "main": "src/cli.js",
+  "exports": {
+    ".": "./src/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/cgemini.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "gemini",
+    "google-gemini",
+    "conductor",
+    "ai",
+    "llm",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "author": "Waqas Ahmed",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakqasahmed/cgemini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wakqasahmed/cgemini/issues"
+  },
+  "homepage": "https://github.com/wakqasahmed/cgemini#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
