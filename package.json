@@ -1,6 +1,6 @@
 {
   "name": "cgemini",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Conductor + Gemini: use Gemini as an independent code reviewer inside any Conductor workspace — CLI, MCP tool, and /gemini slash command.",
   "type": "module",
   "bin": {
