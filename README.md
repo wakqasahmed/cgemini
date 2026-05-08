@@ -1,6 +1,18 @@
-# cgemini
-
-**cgemini = Conductor + Gemini.**
+<h1 align="center">cGemini</h1>
+<p align="center">cgemini = Conductor + Gemini</p>
+<p align="center">
+  <a aria-label="NPM Version" href="https://www.npmjs.com/package/cgemini">
+    <img alt="" src="https://img.shields.io/npm/v/cgemini.svg?label=NPM&logo=npm&style=for-the-badge&color=0470FF&logoColor=white">
+  </a>
+  <a aria-label="NPM Download Count" href="https://www.npmjs.com/package/cgemini">
+    <img alt="" src="https://img.shields.io/npm/dt/cgemini?label=Downloads&style=for-the-badge&color=27B2FF">
+  </a>
+</p>
+<!--
+<p align="center">
+  <a href="https://github.com/wakqasahmed/cgemini?tab=readme-ov-file#documentation">Docs</a> | <a href="https://github.com/wakqasahmed/cgemini">GitHub</a> | <a href="https://github.com/wakqasahmed/cgemini?tab=readme-ov-file#faq">FAQ</a>
+</p>
+-->
 
 A CLI and MCP server that puts Gemini inside any [Conductor.build](https://conductor.build) workspace as an independent code reviewer. Claude writes the code; Gemini reviews it — different model, no shared context, different blind spots caught.
 
